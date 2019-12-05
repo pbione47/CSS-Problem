@@ -1,0 +1,223 @@
+/* CSS reset */
+body, p, h1, h2, h3, h4, h5, h6{
+    padding:0;
+    margin:0;
+}
+
+
+/* box model fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* --- BODY --- */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:#2E1315;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* --- HEADER --- */
+header {
+    background-color: white;
+}
+header h1 {
+    color: #2E1E15;
+    padding-left: 2%;
+    font-size: 1.75rem;
+}
+header h2 {
+    color: #2E1E15;
+    padding-left: 5%;
+    font-size: .86rem;
+    letter-spacing: 2px;
+}
+
+
+/* --- NAVIGATION --- */
+
+nav {
+    background-color:white;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul.menu li {
+    float:left;
+}
+nav ul.menu li a {
+    display: block;
+    padding: .1rem 2.5rem;
+    color: black;
+    text-decoration: none;
+    border-right: solid 1px white; 
+}
+
+nav ul.menu li a:hover {
+    background-color: #8D021F;
+}
+
+nav ul.menu li.active a {
+    background-color: #D84C33;
+}
+
+/* --- MAIN --- */
+main {
+    padding: .5rem 2%;
+    background-color: white;
+}
+main h1 {
+    font-size: 2rem;
+    color: #8D021F;
+    border-bottom: 1px solid black;
+    margin-bottom: .4rem;
+}
+main h2 {
+    font-size: 1.5rem;
+    color: #2E1315;
+    margin-bottom: .2rem;
+}
+main a {
+    color: #8D021F;
+}
+main a:hover {
+    color: #2E1315;
+}
+main p {
+    padding-bottom: .8rem;
+    line-height: 150%;
+}
+
+main blockquote {
+    color: #BC3A28;
+    font-style: italic;
+    margin: .4rem 2%;
+    font-size: .9rem;
+}
+main a {
+    color: #85161A;
+}
+main a:hover {
+    color: #D84C33;
+}
+
+/* --- IMAGES --- */
+figure.rightside {
+    float: right;
+    width: 20%;
+    border: solid 1px #2E1315; 
+    margin: 0 0 .25em 2%;
+}
+figure.rightside img {width: 100%}
+figure.rightside figcaption {
+    text-align: center;
+    font-size: .7rem;
+    color: #2E1315;
+}
+
+div.playersgallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure.players {
+    
+    padding: 2px;
+    border: 1px solid #BC3A28;
+    text-align: center;
+    
+    width: 190px;
+    margin: 1rem;
+    
+}
+figure.players figcaption {font-size: .80rem;}
+figure.players figcaption span {
+    display: block;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #4E1E16;
+}
+
+/* --- LISTS --- */
+main ul.check, main ol.bulb {
+    margin: 0 0 .8rem 0;
+    padding: 0 0 0 1rem;
+}
+main ul.check {
+    list-style-type: square;
+}
+main ol.bulb {
+    list-style-type: circle;
+}
+main dl dt {
+    margin: 0;
+    font-weight: 600;
+    padding: 0 0 0 1rem;
+}
+main dl dd {
+    margin: 0;
+    padding: 0 0 .75rem 2rem;
+}
+
+/* --- FOOTER --- */
+footer {
+ background-color: rgb(78, 30, 22, 31);
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+footer a{
+    color: #D84C33; 
+}
+footer a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- OTHER --- */
+div.keepOpen {
+    clear: both;
+}
